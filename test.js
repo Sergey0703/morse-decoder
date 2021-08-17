@@ -7,7 +7,7 @@ describe("Easy", function() {
         const result = "hello world";
         expect(decode(expr)).to.equal(result);
     });
-    
+   
     it("Sentence test 2", function() {
         const expr = "000000001100101010100000000010**********00111110110000101011000000101000111011100000111011**********00111010100000101110000011111100001011110000001110**********001010111000001111110011101011**********00101111110000101011000000111100101111100000101010**********0000111111001010101100000000100000101110**********000000001100101010100000000010**********0010111010000000101100111110100011101111**********000011101000001111110000111110";
         const result = "the quick brown fox jumps over the lazy dog";
@@ -306,4 +306,6 @@ describe("Hard (what's going on)", function() {
         const result = "ed3ca775829b4b8c0e59620017bf2596b27d0c5cd3de8eac0a145c4f25b31a63e2ebf340c4335a826c443ecea6069f50a836fdc35cc6c2a94cdf5da0fb3b6acb";
         expect(decode(expr)).to.equal(result);
     });
+    
 })
+
